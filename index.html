@@ -13,13 +13,16 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
+      <!-- Logo/Título -->
       <a class="navbar-brand fw-bold" href="#">Cult of the Lamb</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Menú -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="#personajes">Personajes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#caracteristicas">Características</a></li>
           <li class="nav-item"><a class="nav-link" href="#resenas">Reseñas</a></li>
           <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
@@ -28,32 +31,39 @@
   </nav>
 </header>
 
-<!-- Imagen inicial y video -->
 <main>
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg" class="img-fluid rounded mb-4" width="800" height="450" alt="Cult of the Lamb">>
-        <h1 class="fw-bold">Cult of the Lamb</h1>
-        <p class="lead text-muted">Lidera tu propio culto en un mundo extraño y misterioso. Conquista mazmorras, recluta seguidores y construye tu comunidad en nombre de tu dios.</p>
-        <p>
-          <a href="https://youtu.be/r5rNzsy-5hA?si=gfzf9GTtS0zdMBDQ" target="_blank" class="btn btn-primary my-2">Ver Tráiler</a>
-          <a href="#" class="btn btn-secondary my-2">Descargar Ahora</a>
-        </p>
-      </div>
-    </div>
-  </section>
 
-<!-- Cards -->
-<div id="personajes" class="album py-5 bg-light">
+<!-- HERO SECTION -->
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1313140/header.jpg" 
+           class="img-fluid rounded mb-4" width="800" height="450" 
+           alt="Cult of the Lamb">
+      <h1 class="fw-bold">Cult of the Lamb</h1>
+      <p class="lead text-muted">
+        Lidera tu propio culto en un mundo extraño y misterioso. 
+        Conquista mazmorras, recluta seguidores y construye tu comunidad en nombre de tu dios.
+      </p>
+      <p>
+        <a href="https://youtu.be/r5rNzsy-5hA?si=gfzf9GTtS0zdMBDQ" target="_blank" class="btn btn-primary my-2">Ver Tráiler</a>
+        <a href="#contacto" class="btn btn-secondary my-2">Pre-ordenar Ahora</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- PERSONAJES -->
+<div id="personajes" class="album py-5 bg-white">
   <div class="container">
     <h2 class="text-center mb-5">Personajes Principales</h2>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-      <!-- Personaje 1 -->
+      <!-- El Cordero -->
       <div class="col">
         <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 1">
+          <img src="https://static.wikia.nocookie.net/cult-of-the-lamb/images/d/da/The_Lamb.png" 
+               class="card-img-top" style="height: 250px; object-fit: contain; background-color: #f8f9fa;" alt="El Cordero">
           <div class="card-body">
             <h5 class="card-title">El Cordero</h5>
             <p class="card-text">El protagonista y líder del culto. Resucitado por El Que Espera, debe reclutar seguidores y derrotar a los obispos herejes.</p>
@@ -61,32 +71,20 @@
         </div>
       </div>
 
-      <!-- Personaje 2 -->
+      <!-- Narinder -->
       <div class="col">
         <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 1">
+          <img src="https://static.wikia.nocookie.net/cult-of-the-lamb/images/d/d4/Narinder.png" 
+               class="card-img-top" style="height: 250px; object-fit: contain; background-color: #f8f9fa;" alt="Narinder">
           <div class="card-body">
             <h5 class="card-title">Narinder</h5>
-            <p class="card-text">Conocido como "El Que Espera". Un dios caído que otorga su poder al Cordero para cumplir su venganza.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Personaje 3 -->
-      <div class="col">
-        <div class="card shadow-sm">
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070" class="card-img-top" style="height: 225px; object-fit: cover;" alt="Proyecto 1">
-          <div class="card-body">
-            <h5 class="card-title">Ratau</h5>
-            <p class="card-text">El mentor del Cordero. Guía en los primeros pasos para construir el culto y sobrevivir en este mundo.</p>
+            <p class="card-text">"El Que Espera". Un dios caído que concede su poder al Cordero para cumplir su venganza contra los obispos que lo traicionaron.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
- 
 
 <!-- Reseñas -->
 <section id="resenas" class="py-5">
