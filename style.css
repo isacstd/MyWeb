@@ -1,117 +1,105 @@
 /* Estilo general */
 * {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #1a1a1a; /* Fondo oscuro */
-  color: #f8f8f8; /* Texto claro */
+  background-color: #1a1a1a;  /* Fondo oscuro */
+  color: #f5f5f5;             /* Texto claro */
   margin: 0;
   padding: 0;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #2b2b2b !important;
-  border-bottom: 2px solid #ff4b4b;
+  background-color: #2b2b2b;
+  border-bottom: 3px solid #b22222; /* rojo vino */
 }
 
 .navbar-brand {
-  color: #ffdf6c !important; /* Dorado */
-  font-size: 1.5rem;
-  letter-spacing: 1px;
+  color: #ffdf6c !important; /* dorado */
 }
 
 .nav-link {
-  color: #f8f8f8 !important;
-  margin: 0 5px;
+  color: #f5f5f5 !important;
 }
 
-.nav-link.active,
-.nav-link:hover {
-  color: #ff4b4b !important; /* Rojo brillante */
+.nav-link:hover,
+.nav-link.active {
+  color: #b22222 !important; /* rojo */
 }
 
-/* Sección de héroe */
+/* Hero */
 section.py-5.text-center.container {
   background-color: #242424;
   border-radius: 10px;
-  padding: 30px;
+  padding: 20px;
 }
 
 section h1 {
-  color: #ffdf6c;
-  margin-bottom: 15px;
+  color: #ffdf6c; /* dorado */
 }
 
 section p.lead {
-  color: #dcdcdc;
-  margin-bottom: 20px;
+  color: #cccccc;
 }
 
 .btn-primary {
-  background-color: #ff4b4b;
-  border: none;
-}
-
-.btn-secondary {
-  background-color: #555;
+  background-color: #b22222;
   border: none;
 }
 
 .btn-primary:hover {
-  background-color: #ff3333;
+  background-color: #8b1a1a;
+}
+
+.btn-secondary {
+  background-color: #444;
+  border: none;
 }
 
 .btn-secondary:hover {
-  background-color: #777;
+  background-color: #666;
 }
 
-/* Cards de personajes */
+/* Personajes */
 #personajes {
   background-color: #1e1e1e;
 }
 
 .card {
-  border: none;
   background-color: #2b2b2b;
-  color: #f8f8f8;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.03);
-  border: 1px solid #ff4b4b;
-  box-shadow: 0 0 15px rgba(255, 75, 75, 0.3);
+  border: 1px solid #333;
+  color: #f5f5f5;
 }
 
 .card-title {
-  color: #ffdf6c;
+  color: #ffdf6c; /* dorado */
 }
 
-/* Carrusel de reseñas */
+/* Reseñas */
 #resenas {
   background-color: #242424;
 }
 
 #resenas p.lead {
-  color: #f8f8f8;
   font-style: italic;
+  color: #f5f5f5;
 }
 
 .carousel-indicators button {
-  background-color: #555 !important;
+  background-color: #666 !important;
 }
 
 .carousel-indicators .active {
-  background-color: #ff4b4b !important;
+  background-color: #b22222 !important;
 }
 
-/* Formulario de contacto */
+/* Contacto */
 #contacto {
   background-color: #1e1e1e;
-  border-top: 2px solid #ff4b4b;
+  border-top: 2px solid #b22222;
 }
 
 .form-label {
@@ -120,18 +108,19 @@ section p.lead {
 
 .form-control {
   background-color: #2b2b2b;
-  border: 1px solid #444;
-  color: #f8f8f8;
+  border: 1px solid #555;
+  color: #f5f5f5;
 }
 
 .form-control:focus {
-  border-color: #ff4b4b;
+  border-color: #b22222;
   box-shadow: none;
 }
 
 /* Footer */
 footer {
-  border-top: 2px solid #ff4b4b;
+  background-color: #2b2b2b;
+  border-top: 2px solid #b22222;
 }
 
 footer a {
@@ -140,5 +129,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #ff4b4b;
+  color: #b22222;
 }
